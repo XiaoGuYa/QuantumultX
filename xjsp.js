@@ -34,8 +34,16 @@ obj.data.user.goldcoin = "12580";
 obj.data.user.dueday = "XiaoG";
 }
 if ($request.url.indexOf("/getGlobalData") != -1){
-  delete obj.data.adgroups;
-  delete obj.data.iOS_adgroups;
+  obj.data.app_launch_times_adshow = "0";
+  obj.data.adgroups = "";
+  obj.data.iOS_adgroups ="";
+}
+if ($request.url.indexOf("/reqplay/") != -1){
+  obj.retcode = "0";
+  if(obj.data.hasOwnProperty("httpurl_preview")){
+  var playurl = obj.data["httpurl_preview"];
+  obj.data["httpurl"] = playurl;
+  };
 }
 
 $done({body: JSON.stringify(obj)});
