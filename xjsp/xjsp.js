@@ -29,7 +29,7 @@ if ($request.url.indexOf("/vod/show/") != -1){
   obj.data.vodrow.islimitv3 = "0";
   obj.data.vodrow.isvip = "0";
 }
-if ($request.url.indexOf("//vod/reqplay/") != -1){
+if ($request.url.indexOf("/vod/reqplay/") != -1){
   obj.retcode = "0";
   if(obj.data.hasOwnProperty("httpurl_preview")){
   var playurl = obj.data["httpurl_preview"];
