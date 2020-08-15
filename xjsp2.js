@@ -5,17 +5,14 @@
 
 var obj = JSON.parse($response.body);
 if ($request.url.indexOf("/ucp/index") != -1){
-obj.data.uinfo["next_upgrade_need"] = "0";
-obj.data.uinfo.curr_group.gid = "6";
-obj.data.uinfo.curr_group.gname = "VIP6";
-obj.data.uinfo.curr_group.gicon = "V6";
-obj.data.uinfo.curr_group.minup = "1000000";
-obj.data.user.isvip = "1";
+obj.data.uinfo.play_daily_remainders = "999";
+obj.data.uinfo.minivod_play_daily_remainders = "999";
+obj.data.uinfo["next_upgrade_need"] = "9999";
+obj.data.user.isvip = "6";
 obj.data.user.gicon = "V6";
 obj.data.user.gid = "6";
 obj.data.user.nickname = "XiaoG";
 obj.data.user.avatar_url = "https://s1.ax1x.com/2020/07/14/UUc7cR.jpg";
-obj.data.user.goldcoin = "12580";
 obj.data.user.dueday = "XiaoG";
 }
 if ($request.url.indexOf("/getGlobalData") != -1){
