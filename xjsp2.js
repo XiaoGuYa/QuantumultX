@@ -6,9 +6,13 @@
 var obj = JSON.parse($response.body);
 if ($request.url.indexOf("/ucp/index") != -1){
 obj.data.uinfo["next_upgrade_need"] = "0";
+obj.data.uinfo.curr_group.gid = "6";
+obj.data.uinfo.curr_group.gname = "VIP6";
+obj.data.uinfo.curr_group.gicon = "V6";
+obj.data.uinfo.curr_group.minup = "1000000";
 obj.data.user.isvip = "1";
-obj.data.user.gicon = "V5";
-obj.data.user.gid = "5";
+obj.data.user.gicon = "V6";
+obj.data.user.gid = "6";
 obj.data.user.nickname = "XiaoG";
 obj.data.user.avatar_url = "https://s1.ax1x.com/2020/07/14/UUc7cR.jpg";
 obj.data.user.goldcoin = "12580";
