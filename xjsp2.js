@@ -26,7 +26,7 @@ if ($request.url.indexOf("/vod/show/") != -1){
   obj.data.user.gid = "6";
   obj.data.user.gids = "6";
 }
-if ($request.url.indexOf("/init") != -1){
+if ($request.url.indexOf("/init/") != -1){
   obj.data.vodrow.islimitv3 = "0";
   obj.data.vodrow.isvip = "0";
 }
