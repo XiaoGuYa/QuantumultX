@@ -20,13 +20,12 @@ if ($request.url.indexOf("/getGlobalData") != -1){
   obj.data.adgroups = "";
   obj.data.iOS_adgroups ="";
 }
-if ($request.url.indexOf("/vod/show/") != -1){
+if ($request.url.indexOf("/init") != -1){
   obj.data.user.isvip = "1";
   obj.data.user.gicon = "V6";
   obj.data.user.gid = "6";
-  obj.data.user.gids = "6";
 }
-if ($request.url.indexOf("/init") != -1){
+if ($request.url.indexOf("/vod/show/") != -1){
   obj.data.vodrow.islimitv3 = "0";
   obj.data.vodrow.isvip = "0";
 }
