@@ -48,7 +48,6 @@ if (url.indexOf(cartoonvip) != -1) {
 
 if (url.indexOf(cartooncheckvip) != -1) {
 	obj["data"] = "1";
-	obj["message"] = "1";
         obj["value"] = "true";
 	body = JSON.stringify(obj);
  }
