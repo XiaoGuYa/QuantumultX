@@ -7,7 +7,6 @@ const vip = '/api/movie/WatchMovieNew';
 const checkvip = '/api/Account/CheckVip';
 const vipinfo = '/api/account/IndexDetail';
 const Downvip = '/api/download/CheckDownloadTorrent';
-
 const cartoonvip = '/api/cartoon/VipInfo';
 const cartooncheckvip = '/api/video/watch/';
 if (url.indexOf(vip) != -1) {
