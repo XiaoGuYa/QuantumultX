@@ -9,6 +9,7 @@ const vipinfo = '/api/account/IndexDetail';
 const Downvip = '/api/download/CheckDownloadTorrent';
 
 const cartoonvip = '/api/cartoon/VipInfo';
+const cartooncheckvip = '/api/video/watch/';
 if (url.indexOf(vip) != -1) {
 	obj["code"] = "1";
 	obj["canWath"] = "true";
@@ -42,6 +43,13 @@ if (url.indexOf(cartoonvip) != -1) {
  	obj["isVip"] = "ture";
         obj["vipEndTime"] = "2222-02-22";
         obj["loadCount"] = "999";
+	body = JSON.stringify(obj);
+ }
+
+if (url.indexOf(cartooncheckvip) != -1) {
+	obj["data"] = "1";
+	obj["message"] = "1";
+        obj["value"] = "true";
 	body = JSON.stringify(obj);
  }
 $done({body});
