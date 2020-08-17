@@ -22,7 +22,7 @@ if (url.indexOf(checkvip) != -1) {
  }
 if (url.indexOf(vipinfo) != -1) {
  	obj["nickName"] = "Xiao";
-   obj["vipLevel"] = "5";
+   obj["vipLevel"] = "3";
    obj["vipEndTime"] = "2222-02-22";
    obj["cartoonVip"] = "true";
 	body = JSON.stringify(obj);
