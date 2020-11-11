@@ -32,14 +32,14 @@ if (url.indexOf(Downvip) != -1) {
 	body = JSON.stringify(obj);
  }
 if (url.indexOf(vipinfo) != -1) {
- 	obj["nickName"] = "Xiao";
+ 	obj["nickName"] = "XiaoG";
         obj["vipLevel"] = "4";
-        obj["vipEndTime"] = "2222-02-22";
+        obj["vipEndTime"] = "2022-12-31";
         obj["cartoonVip"] = "true";
 	body = JSON.stringify(obj);
  }
 if (url.indexOf(vipinfos) != -1) {
- 	obj.data.result.cznVipLevel = "3";
+ 	obj.data.result.cznVipLevel = "4";
 	obj.data.result.canOnLine = "ture";
 	obj.data.result.canLoad = "ture";
 	obj.data.result.czn = "ture";
@@ -47,8 +47,8 @@ if (url.indexOf(vipinfos) != -1) {
  }
 if (url.indexOf(cartoonvip) != -1) {
  	obj["isVip"] = "ture";
-        obj["vipEndTime"] = "2222-02-22";
-        obj["loadCount"] = "999";
+        obj["vipEndTime"] = "2022-12-31";
+        obj["loadCount"] = "888";
 	body = JSON.stringify(obj);
  }
 
