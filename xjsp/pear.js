@@ -18,7 +18,7 @@ if (url.indexOf(vip) != -1) {
 	body = JSON.stringify(obj);
  }
 if (url.indexOf(checkvip) != -1) {
-	obj["data"] = "1";
+	obj["data"] = "3";
         obj["value"] = "true";
 	body = JSON.stringify(obj);
  }
@@ -28,18 +28,18 @@ if (url.indexOf(Downvip) != -1) {
 	obj["toDayHadLoadCount"] = "80";
 	obj["toDayCanLoadCount"] = "80";
 	obj["allCount"] = "80";
-	obj["vipLevel"] = "5";
+	obj["vipLevel"] = "3";
 	body = JSON.stringify(obj);
  }
 if (url.indexOf(vipinfo) != -1) {
  	obj["nickName"] = "XiaoG";
-        obj["vipLevel"] = "5";
+        obj["vipLevel"] = "3";
         obj["vipEndTime"] = "2022-12-31";
         obj["cartoonVip"] = "true";
 	body = JSON.stringify(obj);
  }
 if (url.indexOf(vipinfos) != -1) {
- 	obj.data.result.cznVipLevel = "5";
+ 	obj.data.result.cznVipLevel = "3";
 	obj.data.result.canOnLine = "ture";
 	obj.data.result.canLoad = "ture";
 	obj.data.result.czn = "ture";
