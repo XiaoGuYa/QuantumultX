@@ -28,12 +28,12 @@ if (url.indexOf(Downvip) != -1) {
 	obj["toDayHadLoadCount"] = "80";
 	obj["toDayCanLoadCount"] = "80";
 	obj["allCount"] = "80";
-	obj["vipLevel"] = "3";
+	obj["vipLevel"] = "4";
 	body = JSON.stringify(obj);
  }
 if (url.indexOf(vipinfo) != -1) {
  	obj["nickName"] = "Xiao";
-        obj["vipLevel"] = "3";
+        obj["vipLevel"] = "4";
         obj["vipEndTime"] = "2222-02-22";
         obj["cartoonVip"] = "true";
 	body = JSON.stringify(obj);
