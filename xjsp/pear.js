@@ -28,18 +28,18 @@ if (url.indexOf(Downvip) != -1) {
 	obj["toDayHadLoadCount"] = "80";
 	obj["toDayCanLoadCount"] = "80";
 	obj["allCount"] = "80";
-	obj["vipLevel"] = "4";
+	obj["vipLevel"] = "5";
 	body = JSON.stringify(obj);
  }
 if (url.indexOf(vipinfo) != -1) {
  	obj["nickName"] = "XiaoG";
-        obj["vipLevel"] = "4";
+        obj["vipLevel"] = "5";
         obj["vipEndTime"] = "2022-12-31";
         obj["cartoonVip"] = "true";
 	body = JSON.stringify(obj);
  }
 if (url.indexOf(vipinfos) != -1) {
- 	obj.data.result.cznVipLevel = "4";
+ 	obj.data.result.cznVipLevel = "5";
 	obj.data.result.canOnLine = "ture";
 	obj.data.result.canLoad = "ture";
 	obj.data.result.czn = "ture";
