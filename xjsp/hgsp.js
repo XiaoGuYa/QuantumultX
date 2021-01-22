@@ -24,8 +24,8 @@ body=body
 .replace(/isPaid\":\d+/g,'isPaid":1')
 .replace(/supUserId\":\d+/g,'supUserId":0')
 .replace(/hasBuy\":\w+/g,'hasBuy":true')
-.replace(/vipEndDate\":\"(.*?)\"/g,'vipEndDate":\"2222-02-22\"')
-.replace(/phone\":\"(.*?)\"/g,'phone":\"JungegeCN\"')
+.replace(/vipEndDate\":\"(.*?)\"/g,'vipEndDate":\"2022-02-22\"')
+.replace(/phone\":\"(.*?)\"/g,'phone":\"XiaoG\"')
 .replace(/userCls\":\d+/g,'userCls":2')
 .replace(/isExpired\":\d+/g,'isExpired":1');
 
